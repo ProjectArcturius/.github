@@ -1,8 +1,8 @@
 # ProjectArcturius
 
-**Ether** —— 纯 Rust 自底向上构筑的 Wayland 空间桌面系统。
+**Arcturius 不止一个发行版** —— 以纯 Rust 自底向上的 Wayland 空间桌面系统 **Ether** 为轴，同时并行推进设计语言、动画引擎、原生客户端、游戏引擎与游戏，各自成仓。
 
-一个合成器、一组原生系统应用、共享平台库与一套统一设计语言，全部以 Rust 编写。
+主线 Ether：一个合成器、一组原生系统应用、共享平台库与一套统一设计语言，全部以 Rust 编写。
 
 ---
 
@@ -41,6 +41,20 @@ Ether/
 ## 技术栈
 
 Rust · Smithay 0.7 · wgpu（Vulkan）/ OpenGL ES · Wayland · kanesumi · sokuou · resvg · fontdue · zbus
+
+---
+
+## 其他产品线
+
+- **[Arc Deck](https://github.com/ProjectArcturius/arc-deck)** —— DeepSeek Harness 的原生桌面客户端。两条实现路线并列：自绘 Rust（跨平台一致）与 WinUI 2（Windows 原生），共同出发点：彻底不用 WebView。
+- **[Zethora Engine](https://github.com/ProjectArcturius/zethora-engine)** —— 用 Rust 编写的高性能现代游戏引擎。
+- **[Galaxy on Fire Remake](https://github.com/ProjectArcturius/galaxy-on-fire-remake)** —— Rust + wgpu 重制《Galaxy on Fire 3D》（Fishlabs，Symbian 2010），覆盖 GOF1 完整功能集。非官方，与 Fishlabs 无关。
+- **[Eclipse Souls](https://github.com/ProjectArcturius/eclipse-souls-docs)** —— 独立游戏，设定集文档仓库。
+- **[ether-theme](https://github.com/ProjectArcturius/ether-theme)** —— Ether 系统主题资产：图标主题 + 光标主题（freedesktop / Xcursor）。
+
+## 发布节奏：Arcturius Cycle
+
+每半年一场，档期随学校假期——暑假一场（Solstice）、寒假一场（Equinox），内容三段：做了什么 · 做得怎么样 · 要做什么。命名约定与历届索引见 **[CYCLE.md](CYCLE.md)**（例：Arcturius Cycle IV Solstice，简写 `ac4s`）。
 
 ---
 
